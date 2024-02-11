@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <script src="js/index.js"></script>
+    <script src="js/universal.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    
+    <header id="menu-main"></header>
+
+    <div id="landing">
+        <p id="landing-title">ECO<span style="color: var(--second)">PRO</span></p>
+        <div id="landing-layer"></div>
+    </div>
+
+    <div id="mission">
+        <img id="lines1" src="assets/images/lines1.png">
+        <div id="mission-left">
+            <p class="header" id="mission-header">OUR MISSION</p>
+            <img id="mission-img" src="https://images.unsplash.com/photo-1527690499469-ef2eff9c6735">            
+        </div>
+        <img id="hexagon1" src="assets/images/hexagon.png">
+        <p class="text" id="mission-info">
+            At ECO<span style="color: var(--second)">PRO</span>, our mission is to lead the transition towards a more sustainable future by providing homeowners comprehensive insights into green and clean energy solutions. We are dedicated to demystifying the complexity surrounding renewable energy adoption, making it more accessible to everyone. By offering detailed guidance on solar, wind, geothermal energy, and other sustainable practices, we aim to not only inform but inspire action towards reducing carbon footprints.
+        </p>
+        <p class="text" id="mission-info">
+            Our platform serves as a beacon for those seeking to understand the financial benefits, including cost savings and tax rebates, environmental impact, and practical steps to embrace clean energy. Join us in paving the way for a greener, cleaner planet.
+        </p>
+    </div>
+
+    <div id="energy">
+        <p class="header" id="energy-header">TYPES OF ENERGY</p>
+        <div id="energy3">
+            <div class="energy-type">
+                <p class="subheader" id="energy-subheader">SOLAR</p>
+                <img class="energy-img" src="assets/images/solar.jpg">
+                <p class="text" id="energy-text">Harness the sun's power for electricity and heating, reducing bills and environmental impact.</p>
+            </div>
+            <div class="energy-type">
+                <p class="subheader" id="energy-subheader">GEOTHERMAL</p>
+                <img class="energy-img" src="assets/images/geothermal.jpg">
+                <p class="text" id="energy-text">Utilize Earth's heat for sustainable electricity and climate control, offering reliability.</p>
+            </div>
+            <div class="energy-type">
+                <p class="subheader" id="energy-subheader">WIND</p>
+                <img class="energy-img" src="assets/images/wind.jpg">
+                <p class="text" id="energy-text">Convert wind into clean, efficient energy, supporting homes and businesses sustainably.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <header id="footer-main"></header>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            $("#landing-title").css("opacity", 1 - $(window).scrollTop() / 250);
+        })
+    </script>
+
+</body>
+</html>

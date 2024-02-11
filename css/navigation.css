@@ -1,0 +1,24 @@
+#menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url();
+    background-size: cover;
+    text-align: center;
+    width: 700px;
+    height: 70px;
+    border-radius: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 40px;
+    z-index: 9999999;
+}
+.menu-button {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+

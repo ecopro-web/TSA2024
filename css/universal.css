@@ -1,0 +1,154 @@
+@import "navigation.css";
+@import "footer.css";
+@import "contact.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "Din";
+    src: url("../assets/fonts/d_din_pro/otf/D-DIN-PRO-400-Regular.otf");
+}
+
+:root {
+  --font-din: Din;
+  --first: #ffba70;
+  --second: rgb(255, 221, 210);
+}
+
+html, body {
+    font-family: "Montserrat";
+    color: black;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3 {
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img {
+    border: none;
+}
+
+.menu-button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Contact form styling */
+.contact-form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ffa365;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Footer */
+
+.header-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--first);
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+.contactdetails {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f0ded2;
+
+   
+}
+.contactdetail {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#contactheader {
+    text-align: center;
+    font-size: 100px;
+}
+
+#social {
+    width: 50px;
+}
+
+.header-subheader{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+
+
+.contactdetail {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacttitle {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.contactinfo {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+#footer-subheader {
+    color: black;
+    font-size: 20px;
+    font-weight: 250;
+    text-align: center;
+}

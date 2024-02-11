@@ -1,0 +1,197 @@
+#landing {
+    background: linear-gradient(#ffa365, #ffbe85), url(../assets/images/city-sunset.jpg);
+    background-size: cover;
+    background-position: 0px -70px;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+#landing-title {
+    font-size: 150px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    opacity: 1;
+}
+#landing-layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../assets/images/city-sunset-layer.png);
+    position: absolute;
+    height: 600px;
+    margin-top: 340px;
+    width: 100%;
+}
+
+#mission {
+    background: white;
+    z-index: 0;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#hexagon1 {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    z-index: 0;
+    right: -100px;
+    margin-bottom: 400px;
+    opacity: 30%;
+    transform: rotate(15deg);
+}
+#lines1 {
+    position: absolute; 
+    z-index: 0;
+    opacity: 30%;
+    margin-top: 800px;
+    transform: scale(1);
+}
+
+#mission-left {
+    width: 400px;
+    position: relative;
+}
+.header {
+    font-size: 90px;
+    font-weight: 800;
+    color: var(--first);
+}
+
+#mission-header {
+    position: absolute;
+    margin-top: -50px;
+    height: 800px;
+    width: 900px;
+    margin-left: -100px;
+    transform: rotate(-90deg);
+}
+#mission-img {
+    width: 400px;
+    height: 700px;
+    border-top: 10px solid var(--first);
+    border-right: 10px solid var(--first);
+    object-fit: cover;
+}
+.text {
+    font-size: 18px;
+    line-height: 35px;
+    
+}
+#energy-text{
+    color: white;
+}
+#mission-info {
+    height: 700px;
+    position: relative;
+    z-index: 1;
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+#energy {
+    background: rgb(40, 46, 58);
+    height: 800px;
+    padding-top: 50px;
+}
+#energy-header {
+    color: var(--first);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#energy3 {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.energy-img {
+    height: 250px;
+    width: 250px; 
+    object-fit: cover;
+    margin-top: -45px;
+    z-index: 0;
+    position: relative;
+}
+.energy-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;  
+}
+.subheader {
+    color: var(--first);
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+    width: 250px;
+}
+
+#energy-subheader {
+    z-index: 1;
+    position: relative;
+    margin-right: 30px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    body, html {
+        overflow-x: hidden; 
+    }
+    #landing {
+        background-position: center center; 
+        background-size: cover;
+    }
+    #landing-title {
+        font-size: 80px; 
+        letter-spacing: 5px; 
+        margin-top: 100px;
+        padding: 0 20px; 
+        text-align: center; 
+    }
+    #landing-layer {
+        margin-top: 150px; 
+    }
+    #mission, #energy {
+        flex-direction: column; 
+        align-items: center;
+    }
+    #mission-left, #mission-info, .energy-type {
+        width: 90%; 
+        margin: 20px 0;
+    }
+    #mission-header, #energy-header {
+        font-size: 60px;
+        position: static; 
+        transform: none;
+        margin: 20px 0;
+    }
+    #mission-img, .energy-img {
+        max-width: 100%;
+        height: auto;
+        border: none;
+    }
+    .header, .subheader {
+        font-size: 40px; 
+        padding: 0 10px;
+    }
+    .text {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 0 20px;
+    }
+    #hexagon1, #lines1 {
+        display: none;
+    }
+
+    
+}

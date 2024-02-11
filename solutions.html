@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/solutions.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <script src="js/universal.js"></script>
+    
+    <title>Solutions</title>
+</head>
+
+<header id="menu-main"></header>
+
+<body>
+    
+    <div class="landing">
+        <p class="title">
+            <span style="color: var(--second)">SOLUTIONS</span>
+        </p>
+        <div id="foreground"></div>
+    </div>
+    
+    <div class="section">
+        <div class="subtitle">
+            <div style="font-size: 25px; color:#7c7c7c">Shop by</div>
+            CATEGORIES
+        </div>
+        <p>
+            Discover a wide range of environmentally friendly products.
+        </p>
+        <div class="options">
+            <div id="homeLink">
+                <img class="option-icon" src="assets/icons/home.svg">
+                Home
+                <img class="arrow" src="assets/icons/arrow.svg">
+
+            </div>
+            <div id="autoLink">
+                <img class="option-icon" src="assets/icons/car.svg">
+                Auto
+                <img class="arrow" src="assets/icons/arrow.svg">
+            </div>
+            <div id="commercialLink">
+                <img class="option-icon" src="assets/icons/commerical.svg">
+                Commercial
+                <img class="arrow" src="assets/icons/arrow.svg">
+            </div>
+            <div id="exploreMoreLink">
+                <img class="option-icon" src="assets/icons/explore.svg">
+                Explore More
+                <img class="arrow" src="assets/icons/arrow.svg">
+            </div>
+        </div>
+        <img id="tesla-design" src="assets/images/tesladesign.png">
+    </div>
+    <div class="section home" id="section">
+        <div class="subtitle">
+            <div style="font-size: 25px; color:#7c7c7c">Upgrade your</div>
+            HOME
+        </div>
+        <p>
+            Incorporate clean energy-effcient appliances, technology, and equipment into your next renovation
+        </p>
+        <div class="options">
+            
+            <div id="solarLink">
+                <img class="option-icon" src="assets/icons/solar.svg">
+                SOLAR
+                <img class="arrow" src="assets/icons/arrow.svg">
+
+            </div>
+            <div id="heatLink">
+                <img class="option-icon" src="assets/icons/heating.svg">
+                HEAT
+                <img class="arrow" src="assets/icons/arrow.svg">
+            </div>
+            <div id="waterLink">
+                <img class="option-icon" src="assets/icons/water.svg">
+                WATER
+                <img class="arrow" src="assets/icons/arrow.svg">
+            </div>
+            <div id="exploreMoreLink">
+                <img class="option-icon" src="assets/icons/explore.svg">
+                Explore More
+                <img class="arrow" src="assets/icons/arrow.svg">
+            </div>
+            <img id="home-image" src="assets/images/home.png">
+        </div>
+        
+    </div>
+    </div>
+
+    <footer id="footer-main"></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/solutions.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            $(".title").css("opacity", 1 - $(window).scrollTop() / 250);
+        })
+    </script>
+</body>
+</html>
