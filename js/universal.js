@@ -11,8 +11,8 @@
             <div id="menu">
                 <a href="index.html" class="menu-button">Home</a>
                 <a href="energy.html" class="menu-button">Energy</a>
-                <a href="cost.html" class="menu-button">Cost</a>
                 <a href="solutions.html" class="menu-button">Solutions</a>
+                <a href="references.html" class="menu-button">References</a>
                 <a class="menu-button" onclick="contactScroll()" >Contact</a>
             </div>
         </nav>

@@ -89,42 +89,50 @@
     height: 700px;
     position: relative;
     z-index: 1;
-    width: 300px;
+    width: 400px;
     margin-left: 50px;
 
 }
 
+
 #energy {
     background: rgb(40, 46, 58);
-    height: 800px;
+    height: 1200px;
+    margin-top: 150px;
     padding-top: 50px;
+    margin-bottom: 400px;
 }
 #energy-header {
     color: var(--first);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
 #energy3 {
-    margin-top: -50px;
+    margin-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#energy-text {
+    margin-left: 10px;
+}
 .energy-img {
-    height: 250px;
-    width: 250px; 
+    height: 550px;
+    width: 350px; 
     object-fit: cover;
-    margin-top: -45px;
+    margin-top: -65px;
     z-index: 0;
     position: relative;
+    border-bottom: 10px solid var(--first);
+    border-right: 10px solid var(--first);
 }
 .energy-type {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;  
+    width: 375px;  
 }
 .subheader {
     color: var(--first);
@@ -134,10 +142,22 @@
     width: 250px;
 }
 
+#e1 {
+    margin-top: -450px;
+}
+#e2 {
+    margin-top: -100px;
+}
+#e3 {
+    margin-top: 250px;
+}
+
 #energy-subheader {
     z-index: 1;
     position: relative;
-    margin-right: 30px;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-size: 45px;
 }
 
 
@@ -195,3 +215,21 @@
 
     
 }
+
+@keyframes FadeIn { 
+    0% {
+        opacity: 0.001;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+  
+.landing-title span {
+    animation: FadeIn 0.3s ease-in-out;
+    animation-fill-mode: both;
+    display: inline-block;
+}
+

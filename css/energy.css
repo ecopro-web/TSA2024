@@ -13,7 +13,22 @@ body {
     height:80vh;
     width:100%;
 }
-
+@keyframes FadeIn { 
+    0% {
+        opacity: 0.001;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+  
+.title span {
+    animation: FadeIn 0.3s ease-in-out;
+    animation-fill-mode: both;
+    display: inline-block;
+}
 
 
 .title {
@@ -26,6 +41,8 @@ body {
     margin-top:1.5em;
     opacity: 1;
 }
+
+
 
 
 .landing {
