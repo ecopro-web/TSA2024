@@ -152,3 +152,20 @@ img {
     font-weight: 250;
     text-align: center;
 }
+
+.menu-button {
+    text-decoration: none;
+    padding:10px;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+
+#menu a:hover,
+body.home #menu .home,
+body.energy #menu .energy,
+body.solutions #menu .solutions,
+body.references #menu .references {
+    background-color: white;
+    color:black;
+}

@@ -9,10 +9,10 @@
             <script src="./index.js"></script>
             <script src="universal.js"></script>
             <div id="menu">
-                <a href="index.html" class="menu-button">Home</a>
-                <a href="energy.html" class="menu-button">Energy</a>
-                <a href="solutions.html" class="menu-button">Solutions</a>
-                <a href="references.html" class="menu-button">References</a>
+                <a href="index.html" class="home menu-button">Home</a>
+                <a href="energy.html" class="energy menu-button">Energy</a>
+                <a href="solutions.html" class="solutions menu-button">Solutions</a>
+                <a href="references.html" class="references menu-button">References</a>
                 <a class="menu-button" onclick="contactScroll()" >Contact</a>
             </div>
         </nav>
